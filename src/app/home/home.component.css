@@ -1,0 +1,56 @@
+/* SECTION 1 - Petit texte + bouton + img */
+.decouvrir {
+    background-color: #F9D0A3;
+}
+.decouvrir button {
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #DA001E;
+    color: white;
+    font-weight: 800;
+}
+.decouvrir button:hover {
+    background-color: #960014;
+    color: white;
+}
+.decouvrir button:active {
+    background-color: #5a000c;
+    color: white;
+}
+.decouvrir .textButton {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.containerImg img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* Tablette */
+  @media screen and (max-width: 992px) {
+    .containerImg img {
+      width: 350px;
+    }
+  }
+  /* Mobile */
+  @media screen and (max-width: 576px) {
+    .containerImg img {
+      width: 280px;
+    }
+  }
+
+
+
+
+

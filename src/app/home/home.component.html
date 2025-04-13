@@ -47,35 +47,44 @@
       <!-- Section 3 = Les produits + tri -->
       <section>
 
+
+
         <div class="container">
-          <div class="row">
+          <div class="row containerSelect">
             
             <div class="col-md-6 col-sm-12">
-              <label for="tri">Trier par prix :</label>
-              <select id="tri" name="tri" [(ngModel)]="tri">
-                <option value="asc">Prix croissant</option>
-                <option value="desc">Prix décroissant</option>
-              </select>
+              <div class="select">
+                <label for="tri">Trier par </label>
+                <select id="tri" name="tri" [(ngModel)]="tri">
+                  <option value="asc">Prix croissant</option>
+                  <option value="desc">Prix décroissant</option>
+                </select>
+              </div>
             </div>
 
             <div class="col-md-6 col-sm-12">
-              <label for="recherche">Rechercher :</label>
-              <input type="text" id="recherche" name="recherche" placeholder="Nom de figurine" [(ngModel)]="recherche">
+              <div class="select">
+                <label for="recherche">Rechercher :</label>
+                <input type="text" id="recherche" name="recherche" placeholder="Nom de figurine" [(ngModel)]="recherche">
+              </div>
             </div>
 
           </div>
         </div>
         
 
+
         <div class="container">
-          <div class="row">
+          <div class="row containersShop">
 
 
-            <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let product of products | nameFilter: recherche | sortByPrice: tri">
-              <h2>{{ product.name }}</h2>
-              <img [src]="product.image" [alt]="product.name" class="img-fluid">
-              <h2>{{ product.price }} €</h2>
-              <button>Ajouter au panier</button>
+            <div class="col-lg-3 col-md-6 col-sm-12 containerProduct" *ngFor="let product of products | nameFilter: recherche | sortByPrice: tri">
+              <div class="product">
+                <h3>{{ product.name }}</h3>
+                <img [src]="product.image" [alt]="product.name" class="img-fluid">
+                <h3>{{ product.price }} €</h3>
+                <button>Ajouter au panier</button>
+              </div>
             </div>
 
 
@@ -83,5 +92,7 @@
         </div>
       </section>
       
+
+
     </div>
   </main>

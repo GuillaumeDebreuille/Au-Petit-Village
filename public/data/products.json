@@ -1,44 +1,52 @@
 [
     {
-        "id": 1,
-        "name": "Assurancetourix",
-        "price": 45,
-        "image": "img/Assurancetourix.png"
+      "id": 1,
+      "name": "Assurancetourix",
+      "price": 45,
+      "image": "img/Assurancetourix.png",
+      "description": "Assurancetourix est le barde du village gaulois. Toujours prêt à entonner une chanson, il est malheureusement plus souvent bâillonné qu’applaudi. Sa figurine capture toute la fierté (et le chaos) qu’il sème à chaque banquet."
     },
     {
-        "id": 2,
-        "name": "Asterix",
-        "price": 50,
-        "image": "img/Asterix.png"
+      "id": 2,
+      "name": "Asterix",
+      "price": 50,
+      "image": "img/Asterix.png",
+      "description": "Astérix est le héros par excellence : petit, malin et courageux. Grâce à sa potion magique et son grand cœur, il affronte les Romains sans jamais plier. Cette figurine représente la ruse et l’audace des irréductibles Gaulois."
     },
     {
-        "id": 3,
-        "name": "Bonemine",
-        "price": 32,
-        "image": "img/Bonemine.png"
+      "id": 3,
+      "name": "Bonemine",
+      "price": 32,
+      "image": "img/Bonemine.png",
+      "description": "Bonemine est l’épouse d’Abraracourcix, le chef du village. Avec son franc-parler et sa poigne de fer, elle veille à la bonne tenue de son mari et du village. Cette figurine met à l’honneur la véritable chef à la maison."
     },
     {
-        "id": 4,
-        "name": "Idefix",
-        "price": 80,
-        "image": "img/Idefix.png"
+      "id": 4,
+      "name": "Idefix",
+      "price": 80,
+      "image": "img/Idefix.png",
+      "description": "Idéfix, le petit chien d’Obélix, est aussi discret que fidèle. Il aime la nature, déteste qu’on abatte des arbres, et n’hésite pas à mordre les mollets ennemis. Cette figurine touchante ravira tous les amoureux des animaux."
     },
     {
-        "id": 5,
-        "name": "Ielosubmarine",
-        "price": 12,
-        "image": "img/Ielosubmarine.png"
+      "id": 5,
+      "name": "Ielosubmarine",
+      "price": 12,
+      "image": "img/Ielosubmarine.png",
+      "description": "Iélosubmarine, le druide helvète, fascine par ses connaissances des herbes et ses mystérieuses potions. Excentrique et savant, il apporte une touche de mysticisme. Sa figurine est un clin d’œil à ceux qui aiment la sagesse un peu décalée."
     },
     {
-        "id": 6,
-        "name": "Obelix",
-        "price": 71,
-        "image": "img/Obelix.png"
+      "id": 6,
+      "name": "Obelix",
+      "price": 71,
+      "image": "img/Obelix.png",
+      "description": "Obélix est le meilleur ami d’Astérix. Tombé dans la marmite de potion magique étant petit, il est doté d’une force colossale. Toujours affamé et tendre malgré ses baffes, cette figurine le représente portant un menhir et un sourire jovial."
     },
     {
-        "id": 7,
-        "name": "Petisuix",
-        "price": 49,
-        "image": "img/Petisuix.png"
+      "id": 7,
+      "name": "Petisuix",
+      "price": 49,
+      "image": "img/Petisuix.png",
+      "description": "Petisuix est un Helvète courageux, méticuleux et attaché aux traditions de son peuple. Toujours ponctuel et poli, il impressionne par sa précision et son calme. Sa figurine évoque l’ordre helvétique au cœur du joyeux bazar gaulois."
     }
-]
+  ]
+  

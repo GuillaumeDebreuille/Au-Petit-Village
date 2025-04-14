@@ -128,7 +128,7 @@
     width: 80%;
     border-radius: 30px;
 }
-.containerProduct button {
+.containerProduct a {
     width: 80%;
     height: 50px;
     border-radius: 20px;
@@ -137,12 +137,15 @@
     color: white;
     font-weight: 800;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.containerProduct button:hover {
+.containerProduct a:hover {
     background-color: #960014;
     color: white;
 }
-.containerProduct button:active {
+.containerProduct a:active {
     background-color: #5a000c;
     color: white;
 }

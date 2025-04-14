@@ -80,10 +80,10 @@
 
             <div class="col-lg-3 col-md-6 col-sm-12 containerProduct" *ngFor="let product of products | nameFilter: recherche | sortByPrice: tri">
               <div class="product">
-                <h3>{{ product.name }}</h3>
+                <h4>{{ product.name }}</h4>
                 <img [src]="product.image" [alt]="product.name" class="img-fluid">
                 <h3>{{ product.price }} €</h3>
-                <button>Voir</button>
+                <a [routerLink]="['/products', product.id]" class="btn btn-outline-primary">Voir</a>
               </div>
             </div>
 

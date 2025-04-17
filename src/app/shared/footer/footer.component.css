@@ -1,0 +1,27 @@
+.containerFooter {
+    background-color: #151217b7;
+}
+.container1, .container2, .container3, .container4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    padding: 30px;
+}
+.container2 a, .container4 a {
+    color: yellow;
+    text-decoration: none;
+}
+.container2 a:hover, .container4 a:hover {
+    color: rgb(255, 255, 138);
+    font-weight: 600;
+}
+.container2 a:active, .container4 a:active {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+img {
+    width: 100px;
+}

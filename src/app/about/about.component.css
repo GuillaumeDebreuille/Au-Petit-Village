@@ -1,0 +1,19 @@
+hr {
+    border: none;
+    background-color: #F9D0A3;
+    height: 10px;
+    width: 50%;
+    opacity: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.container {
+    background-color: #F9D0A3;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: large;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}

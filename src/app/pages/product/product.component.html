@@ -1,10 +1,29 @@
+<hr class="separator">
+
 <div *ngIf="product">
-    <h1>{{ product.name }}</h1>
-    <img [src]="product.image" [alt]="product.name">
-    <p>Prix : {{ product.price }} €</p>
-    <p>{{ product.description }}</p>
-  </div>
+    <div class="container productContainer">
+        <div class="row">
+
+            <div class="col-md-12 productName">
+                <h1>{{ product.name }}</h1>
+            </div>
+
+            <div class="col-md-6 col-sm-12 productImg">
+                <img [src]="product.image" [alt]="product.name">
+            </div>
+
+            <div class="col-md-6 col-sm-12 productText">
+                <h2>{{ product.price }} €</h2>
+                <p>{{ product.description }}</p>
+                <button>Ajouter au panier</button>
+            </div>
+
+        </div>
+    </div>
+</div>
   
+<hr class="separator">
+
   <div *ngIf="!product">
     <p>Produit introuvable.</p>
   </div>

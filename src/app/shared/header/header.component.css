@@ -1,0 +1,34 @@
+img {
+    max-height: 50px;
+}
+.navbar {
+    background-color: #151217b7;
+}
+.navbar-brand {
+    color: #FDD90B ;
+    opacity: 100%;
+    
+}
+.nav-link {
+    color: #FDD90B ;
+    font-weight: 1000;
+}
+.nav-link:hover {
+    color: #ffffff;
+}
+.nav-link:active {
+    color: #fff2a6;
+}
+.navbar-toggler:focus { 
+    outline: none; 
+    box-shadow: none; 
+}
+.navbar-toggler-icon {
+    color: red;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(80%) sepia(100%) saturate(900%) hue-rotate(5deg) brightness(100%) contrast(101%);
+  }
+  
+  
+  

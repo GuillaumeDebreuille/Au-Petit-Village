@@ -1,3 +1,7 @@
+hr {
+  border: none;
+}
+
 /* SECTION 1 - Petit texte + bouton + img */
 .decouvrir {
     background-color: #F9D0A3;

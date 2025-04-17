@@ -1,1 +1,32 @@
-<p>header works!</p>
+<header class="navbar navbar-expand-md">
+    <div class="container-fluid">
+    
+    
+         <!--Logo-->
+        <a class="navbar-brand" [routerLink]="'/'">
+            <h2><img src="img/logo.png" alt="Logo"> Au Petit Village</h2>
+        </a>
+
+
+         <!--Bouton Menu Burger-->
+        <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#menuMobile" >
+        
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+         <!--Menu Desktop & Mobile-->
+        <div class="collapse navbar-collapse justify-content-end" id="menuMobile">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" [routerLink]="'/'">ACCUEIL</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="'/'">A PROPOS</a></li>
+            </ul>
+        </div>
+        
+        
+    </div>
+</header>

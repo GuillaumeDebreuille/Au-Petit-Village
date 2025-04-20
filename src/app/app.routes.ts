@@ -5,6 +5,8 @@ import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
     { path: "", component: HomeComponent},
+    { path: "home", component: HomeComponent},
     { path: "products/:id", component: ProductComponent},
-    { path: "about", component: AboutComponent}
+    { path: "about", component: AboutComponent},
+    { path: "**", redirectTo: "home"}
 ];
